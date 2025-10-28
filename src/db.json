@@ -1,0 +1,105 @@
+{
+  "catagory": [
+    {
+      "id": "3a33",
+      "categoryname": "Kid's shoes"
+    },
+    {
+      "id": "537a",
+      "categoryname": "kid's toys"
+    },
+    {
+      "id": "4741",
+      "categoryname": "kid's shirts"
+    },
+    {
+      "id": "cf59",
+      "categoryname": "kid's t-shirts"
+    },
+    {
+      "id": "2ff3",
+      "categoryname": "kid's pents"
+    }
+  ],
+  "products": [
+    {
+      "categoryname": "kid's toys",
+      "image": "https://media.istockphoto.com/id/687165852/photo/toys.jpg?s=612x612&w=0&k=20&c=_BdsQLnut3pVc3RYgodD3Xiy7gCCM3K8HX3GdODLRt0=",
+      "productname": "Kid's Toys",
+      "oldprice": "400",
+      "newprice": "200",
+      "addedate": "2025-10-23",
+      "qty": "1",
+      "descriptions": "RSS tiny zip binny toys",
+      "id": "c2b6"
+    },
+    {
+      "id": "7d7f",
+      "categoryname": "kid's shirts",
+      "image": "https://3.imimg.com/data3/QM/NN/MY-4167495/kids-shirt.jpg",
+      "productname": "Best of child's shirts",
+      "oldprice": "250",
+      "newprice": "200",
+      "addedate": "2025-10-08",
+      "qty": "1",
+      "descriptions": "Your little champ is sure to look cool in this grey printed shirt from Ruff. Tailored in cotton fabric with cutaway collar and full sleeves."
+    },
+    {
+      "categoryname": "Kid's shoes",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT5uqoJOx6NPPM3jLTxjZMLD-tMmbehvORv9DQ-cPCo8DSgx9ub1blT_SI3umS5ky_VgLF28JIZBu4fxJTmtA65kGjhIefRKn-F16M5iqTm7omsP38OkYKub_N6",
+      "productname": "Kid's best shoes",
+      "oldprice": "500",
+      "newprice": "200",
+      "addedate": "2025-10-15",
+      "qty": "1",
+      "descriptions": "Your little champ is sure to look cool in this grey printed shirt from Ruff. Tailored in cotton fabric with cutaway collar and full sleeves.",
+      "id": "33c4"
+    },
+    {
+      "id": "1cf0",
+      "categoryname": "kid's t-shirts",
+      "image": "https://www.crazytoes.in/cdn/shop/products/dino-kids-t-shirt-summer-fun-with-trendy-print-on-the-back-369048.jpg?v=1693463911",
+      "productname": "Kid's T-shirts plain",
+      "oldprice": "300",
+      "newprice": "200",
+      "addedate": "2025-10-16",
+      "qty": "1",
+      "descriptions": "Our T-Shirts redefines comfort for your child's summer escapades. The 100% cotton fabric ensures breathability and softness, keeping your child cool and comfortable even on the hottest days. The t-shirt's anti-shrink, anti-pilling, and breathable features guarantee it can withstand active play while maintaining its vibrant appeal.\n\n"
+    },
+    {
+      "id": "678c",
+      "categoryname": "kid's pents",
+      "image": "https://cdn03.nnnow.com/web-images/large/styles/FEP03WZYUWI/1692782847413/1.jpg",
+      "productname": "Kid's excellent pents",
+      "oldprice": "500",
+      "newprice": "300",
+      "addedate": "2025-10-28",
+      "qty": "1",
+      "descriptions": "Boys Dark Blue Solid Long Trouser\n\n"
+    },
+    {
+      "id": "b5d6",
+      "categoryname": "Kid's shoes",
+      "image": "https://www.mumkins.in/cdn/shop/files/boys-shoes-accord-001-blue-1.jpg?v=1747400081&width=1080",
+      "productname": "Best of Kid's Shoes",
+      "oldprice": "500",
+      "newprice": "300",
+      "addedate": "2025-10-23",
+      "qty": "1",
+      "descriptions": "Buy blue kids sports shoes provide long day wear with their cushioned footbed and velcro closure. Their round toe design and tight outer sole add comfort.\n"
+    }
+  ],
+  "cart": [
+    {
+      "id": "b02d",
+      "categoryname": "Kid's shoes",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT5uqoJOx6NPPM3jLTxjZMLD-tMmbehvORv9DQ-cPCo8DSgx9ub1blT_SI3umS5ky_VgLF28JIZBu4fxJTmtA65kGjhIefRKn-F16M5iqTm7omsP38OkYKub_N6",
+      "productname": "Kid's best shoes",
+      "oldprice": "500",
+      "newprice": "400",
+      "addedate": "2025-10-15",
+      "qty": 1,
+      "descriptions": "Your little champ is sure to look cool in this grey printed shirt from Ruff. Tailored in cotton fabric with cutaway collar and full sleeves."
+    }
+  ]
+}
