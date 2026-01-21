@@ -89,17 +89,5 @@
       "descriptions": "Buy blue kids sports shoes provide long day wear with their cushioned footbed and velcro closure. Their round toe design and tight outer sole add comfort.\n"
     }
   ],
-  "cart": [
-    {
-      "id": "b02d",
-      "categoryname": "Kid's shoes",
-      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT5uqoJOx6NPPM3jLTxjZMLD-tMmbehvORv9DQ-cPCo8DSgx9ub1blT_SI3umS5ky_VgLF28JIZBu4fxJTmtA65kGjhIefRKn-F16M5iqTm7omsP38OkYKub_N6",
-      "productname": "Kid's best shoes",
-      "oldprice": "500",
-      "newprice": "400",
-      "addedate": "2025-10-15",
-      "qty": 1,
-      "descriptions": "Your little champ is sure to look cool in this grey printed shirt from Ruff. Tailored in cotton fabric with cutaway collar and full sleeves."
-    }
-  ]
+  "cart": []
 }

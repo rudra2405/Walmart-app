@@ -6,8 +6,13 @@ export default function PaymentSuccess() {
   const [cartItems, setCartItems] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:8001/cart").then((res) => {
+    axios.get("http://localhost:8001/cart").then(async (res) => {
       setCartItems(res.data);
+
+      // Clear cart after fetching
+      for (let item of res.data) {
+        await axios.delete(`http://localhost:8001/cart/${item.id}`);
+      }
     });
   }, []);
 

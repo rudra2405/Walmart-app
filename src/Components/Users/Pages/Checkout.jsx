@@ -1,11 +1,31 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
+import Swal from "sweetalert2";
 
 export default function Checkout() {
   const [cartItems, setCartItems] = useState([]);
+  const [isAgreed, setIsAgreed] = useState(false);
+  const navigate = useNavigate();
+
+  const handleOrder = () => {
+    Swal.fire({
+      title: "Place Order?",
+      text: "Do you want to place this order?",
+      icon: "question",
+      showCancelButton: true,
+      confirmButtonText: "Yes",
+      cancelButtonText: "No",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire("Order Placed!", "Your order has been placed.", "success");
+        navigate("/payment-success");
+      }
+    });
+  };
 
   // Fetch cart items dynamically
   useEffect(() => {
@@ -170,8 +190,8 @@ export default function Checkout() {
                 <input
                   id="terms"
                   type="checkbox"
-                  required
                   className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                  onChange={(e) => setIsAgreed(e.target.checked)}
                 />
                 <label htmlFor="terms" className="ml-2 text-sm text-gray-600">
                   I agree to the{" "}
@@ -184,11 +204,19 @@ export default function Checkout() {
                 </label>
               </div>
 
-              <Link to="/payment-success">
-                <button className="mt-6 w-full bg-green-600 hover:bg-green-700 text-white font-extrabold py-3 rounded-full transition duration-300 shadow-xl text-lg uppercase tracking-wider">
-                  Place Your Order
-                </button>
-              </Link>
+              <button
+                disabled={!isAgreed}
+                onClick={handleOrder}
+                className={`mt-6 w-full py-3 rounded-full text-lg font-extrabold tracking-wider transition duration-300 shadow-xl 
+    ${
+      isAgreed
+        ? "bg-green-600 hover:bg-green-700 text-white"
+        : "bg-gray-300 text-gray-500 cursor-not-allowed"
+    }
+  `}
+              >
+                Place Your Order
+              </button>
 
               <p className="mt-4 text-center text-xs text-gray-500 flex items-center justify-center">
                 Secure payment processed by Stripe.
